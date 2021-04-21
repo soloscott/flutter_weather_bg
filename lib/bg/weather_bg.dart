@@ -130,10 +130,10 @@ class WeatherItemBg extends StatelessWidget {
       child: ClipRect(
         child: Stack(
           children: [
-            WeatherColorBg(weatherType: weatherType),
-            WeatherCloudBg(
-              weatherType: weatherType,
-            ),
+            // WeatherColorBg(weatherType: weatherType),
+            // WeatherCloudBg(
+            //   weatherType: weatherType,
+            // ),
             _buildRainSnowBg(),
             _buildThunderBg(),
             _buildNightStarBg(),
